@@ -33,12 +33,50 @@
         <form method="get" action="thanks.html" class="myform">
 
             <fieldset>
+                <legend>Customer Information</legend>
 
             <label> First Name: <input type="text" name="firstname" required ></label>
             <label> Last Name: <input type="text" name="lastname" required ></label>
             <label>Cell Number: <input type="tel" name="phone" required placeholder="789-123-4567" ></label>
-</fieldset>
+        </fieldset>
+        <fieldset>
+            <legend>Delivery Method</legend>
+            <label><input type="radio" value="drone" name="method" >Drone Delivery (2hrs)</label>
+            <label><input type="radio" value="cycle" name="method" >Motorcycle (4hrs)</label>
+            <label><input type="radio" value="robot" name="method" >Robot Delivery (6hrs)</label>
+        </fieldset>
 
+        <fieldset>
+            <legend>Delivery Options</legend>
+            <label><input type="checkbox" name="porch" value="porch">Front Porch</label>
+            <label><input type="checkbox" name="deck" value="deck">Deck</label>
+            <label><input type="checkbox" name="driveway" value="driveway">Driveway</label>
+            <label><input type="checkbox" name="garage" value="garage">Inside the Garage</label>
+                    
+        </fieldset>
+        <fieldset>
+
+            
+            <label>Preferred Delivery Time
+                <select name="time">
+                    <option value="none">Please Select</option>
+                    <option value="morning">Between 7:00am and 11:00am</option>
+                    <option value="noon">Between 11:00am and 2:00pm</option>
+                    <option value="afternoon">Between 2:00pm and 5:00pm</option>
+                    <option value="Evening">Between 5:00pm and 8:00pm</option>
+
+
+
+                </select>
+            </label>
+
+        </fieldset>
+
+        <label>Comments:
+            <textarea name="comments"></textarea>
+        </label>
+
+        <input type="submit" value="Send Delivery Request">
         </form>
 
     </main>
