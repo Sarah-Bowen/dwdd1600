@@ -88,6 +88,11 @@ dd {
     width: 100%;
 }
 
+.active {
+    background-color: purple;
+    color: white;
+}
+
 .link {
     display: block;
     text-align: center;
