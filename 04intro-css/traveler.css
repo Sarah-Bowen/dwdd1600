@@ -120,7 +120,7 @@ dd {
 }
 
 .fancy-bullet {
-    list-style:circle;
+    list-style-type:circle;
 }
 
 @media screen and (max-width: 768px) {
