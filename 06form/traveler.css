@@ -189,4 +189,54 @@ div.gallery figcaption{
 
 .clear-both {
     clear: both;
+
 }
+
+/* Formatting My Form */
+
+
+myform fieldset {
+    border: 1px solid purple;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+
+}
+
+.myform legend {
+    color: purple;
+    font-size: .8rem;
+}
+
+.myform label {
+    margin: .5rem;
+}
+
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea {
+    display: block;
+}
+
+.myform select, .myform [type=text], .myform [type=tel], .myform textarea {
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    font-family:"Red Hat Text", sans-serif;
+    font-weight: 200;
+}
+
+.myform textarea {
+    height: 12rem;
+}
+
+.myform :required {
+    background-color: rgba(197, 133, 222, 0.277);
+}
+
+.myform [type=submit] {
+    background-color:purple;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin: 1rem 0 0 1vw;
+}
+
