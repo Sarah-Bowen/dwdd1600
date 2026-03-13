@@ -195,7 +195,7 @@ div.gallery figcaption{
 /* Formatting My Form */
 
 
-myform fieldset {
+.myform fieldset {
     border: 1px solid purple;
     margin-bottom: 1rem;
     border-radius: 3px;
@@ -211,16 +211,17 @@ myform fieldset {
     margin: .5rem;
 }
 
-.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea {
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea, .myform [type=email] {
     display: block;
 }
 
-.myform select, .myform [type=text], .myform [type=tel], .myform textarea {
+.myform select, .myform [type=text], .myform [type=tel], .myform textarea, .myform [type=email]{
     border: solid 1px #888;
     padding: .3rem;
     width: 250px;
     font-family:"Red Hat Text", sans-serif;
     font-weight: 200;
+    border-radius:3px;
 }
 
 .myform textarea {
