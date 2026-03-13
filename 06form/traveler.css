@@ -1,0 +1,192 @@
+/* Override default elements*/
+
+body {
+    padding: 16px;
+    margin: 0;
+    font-family: "Red Hat Text", sans-serif;
+}
+
+nav {
+    background-color:  #f1f1f1;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+h1 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+}
+
+h2 {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+p {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+}
+
+dl {
+    border-width: 2px;
+    border-color:black;
+    border-style:solid;
+    padding:12px 12px 12px 12px;
+
+}
+
+dt {
+    font-style:italic;
+
+
+}
+
+dd {
+    font-style:normal;
+
+}
+
+/* Custom Class Definitions*/
+
+.logo-and-name {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.title {
+    font-size: 32px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6px 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links > li {
+    width: 100%;
+}
+
+.active {
+    background-color: purple;
+    color: white;
+}
+
+.link {
+    display: block;
+    text-align: center;
+    width: 100%;
+    line-height: 48px;
+    background-color: #b3b0b0;
+    border-radius: 12px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s ease all;
+}
+
+a:hover, .active{
+    background-color: purple;
+    color: white;
+}
+
+main {
+    background-color: #f1f1f1;
+    margin-top: 12px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    border-width: 2px;
+    border-color:lightslategrey;
+    border-style:dashed;
+
+}
+
+.fancy-bullet {
+    list-style-type:circle;
+}
+
+@media screen and (max-width: 768px) {
+
+    .links {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+}
+/* Formatting My Images */
+
+.gallery figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+.gallery figure.wrapped image {
+    width: 200px;
+    height: auto;
+
+}
+
+.gallery figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75 rem;
+
+}
+
+div.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure{
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption{
+    text-align: center;
+    font-size: .8rem;
+    color: black}
+
+.gallery img {
+    width: 250px;
+    height: auto;
+}
+
+.float-right {
+    float:right;
+    width:30%;
+    margin-left:16px;
+    margin-bottom:16px;
+    
+
+}
+
+.float-right img {
+    width:100%;
+}
+
+.clear-both {
+    clear: both;
+}
