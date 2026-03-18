@@ -143,7 +143,7 @@ main {
     float: right;
 }
 
-.gallery figure.wrapped image {
+.gallery figure.wrapped img {
     width: 200px;
     height: auto;
 
@@ -274,14 +274,8 @@ nav .active a{
 
 
 /* large screen navigation stuff here */
-@media only screen and (min-width: 800px)
+@media only screen and (min-width: 800px) {
 
-
-header, main, nav, footer {
-    max-width: 900px;
-    margin: 0 auto;
-
-}
 
 * {
     box-sizing: border-box;
@@ -295,10 +289,6 @@ header, nav, main, footer {
 .logo {
     max-width: 100px;
     max-height: 100px;
-}
-
-header {
-    background: linear-gradient(to right, purple, lightpink);
 }
 
 .gallery img:hover {
@@ -315,4 +305,5 @@ header {
     .links {
         flex-direction: row;
     }
+}
 }
