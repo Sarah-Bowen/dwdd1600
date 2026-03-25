@@ -321,3 +321,33 @@ nav .active {
     display: block;
     border-radius: 12px;
 }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+
+}
+
+table th {
+    background-color: purple;
+    color: white;
+    padding: .5rem 2vw;
+    text-align: left;
+
+
+}
+
+table td{
+    color: white;
+    padding: .4rem 2vw;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+table tr:hover {
+    background-color:rgba(84, 105, 31, 0.2)
+}
