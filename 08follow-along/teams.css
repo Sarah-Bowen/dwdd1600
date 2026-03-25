@@ -131,10 +131,34 @@ ul li {
     font-size: .8rem;
 }
 
-table.activities
+table {
+    width: 100%;
+    border-collapse: collapse;
 
 
+}
 
+table th {
+    background-color: #3179AF;
+    color: white;
+    padding: .5rem 2vw;
+    text-align: left;
+
+
+}
+
+table td{
+    color: #54691f;
+    padding: .4rem 2vw;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+table tr:hover {
+    background-color:rgba(84, 105, 31, 0.2)
+}
 
 
 /* footer stuff here */
