@@ -1,5 +1,11 @@
 /* Override default elements*/
 
+
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     padding: 16px;
     margin: 0;
@@ -47,6 +53,11 @@ dt {
 dd {
     font-style:normal;
 
+}
+
+header, nav, main, footer {
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 /* Custom Class Definitions*/
@@ -125,7 +136,7 @@ main {
     list-style-type:circle;
 }
 
-@media screen and (max-width: 768px) {
+    @media screen and (max-width: 800px) {
 
     .links {
         flex-direction: column;
@@ -271,7 +282,7 @@ nav a {
 }
 
 nav .active {
-    background-color: #8C501B;
+    background-color: purple;
     color: white;
 }
 
@@ -284,14 +295,6 @@ nav .active {
 @media only screen and (min-width: 800px) {
 
 
-* {
-    box-sizing: border-box;
-}
-
-header, nav, main, footer {
-    max-width: 900px;
-    margin: 0 auto;
-}
 
 .logo {
     max-width: 100px;
