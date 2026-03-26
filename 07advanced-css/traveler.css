@@ -302,7 +302,7 @@ nav .active {
 }
 
 .gallery img:hover {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 12px rgba(245, 85, 149, 0.17);
 }
 
 
