@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+figure {
+  float: right;           /* Floats image to the right */
+  width: 30%;             /* Image container size as a percentage */
+  margin: 10px;
+}
+
+figure img {
+  width: 100%;            /* Makes image scale with the figure */
+  height: auto;           /* Keeps proportions correct */
+}
+
+figcaption {
+  text-align: center;     /* Centers the caption */
+  font-size: 14px;
+}
+
+footer {
+  clear: both;            /* Keeps footer below floated image */
+  margin-top: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>My Page</h1>
+
+<figure>
+  <img src="images/my image" alt="My image">
+  <figcaption>This is the caption for my image.</figcaption>
+</figure>
+
+<p>
+This is example text that will flow around the image because the image is floated to the right.
+You can keep adding more text here and it will wrap around the picture automatically.
+This demonstrates how floating elements allow text to move around them on the page.
+</p>
+
+<footer>
+  <p>My Website Footer</p>
+</footer>
+
+</body>
+</html>

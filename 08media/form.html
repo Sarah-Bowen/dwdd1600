@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sarah Bowen Portfolio.">
+    <meta name="author" content="Sarah">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Form | Sarah Bowen Portfolio</title>
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./traveler.css">
+
+    <!-- Font I'm using -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <div class="logo-and-name">
+        <img
+            src="./images/logo.png"
+            alt="Sarah Bowen Logo"
+            width="60"
+            height="60"
+            class="logo"
+        >
+        <div>
+            <h1 class="title">Sarah Bowen Portfolio</h1>
+            <p class="subtitle">Art &amp; Design Student</p>
+        </div>
+    </div>
+
+    <nav>
+        <ul class="links">
+            <li><a href="index.html" class="link">Home</a></li>
+            <li><a href="projects.html" class="link">Projects</a></li>
+            <li><a href="best-work.html" class="link">Best Work</a></li>
+            <li><a href="about-me.html" class="link">About Me</a></li>
+            <li><a href="contact.html" class="link">Contact</a></li>
+            <li><a href="form.html" class="link active">Form</a></li>
+            <li><a href="map.html" class="link">Map</a></li>
+            <li><a href="audio.html" class="link">Audio</a></li>
+
+
+        </ul>
+    </nav>
+</header>
+
+<main>
+        <h1>Form Commission</h1>
+        <form method="get" action="thanks.html" class="myform">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+            <label> First Name: <input type="text" name="firstname" required ></label>
+            <label> Last Name: <input type="text" name="lastname" required ></label>
+            <label>Cell Number: <input type="tel" name="phone" required placeholder="789-123-4567" ></label>
+            <label>Email:<input type="email" name="email" required></label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Desired Art Style</legend>
+            <label><input type="radio" value="drone" name="method" >Physical (40$)</label>
+            <label><input type="radio" value="cycle" name="method" >Digital (30$)</label>
+            <label><input type="radio" value="robot" name="method" >Mixed Media (45$)</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Delivery Options</legend>
+            <label><input type="checkbox" name="porch" value="porch">Pick Up (5$)</label>
+            <label><input type="checkbox" name="deck" value="deck">Delivered to Front Porch (30$)</label>
+            <label><input type="checkbox" name="driveway" value="driveway">Sent digitally (10$)</label>
+                    
+        </fieldset>
+        <fieldset>
+
+            
+            <label>Preferred Delivery Time (If Applicable)
+                <select name="time">
+                    <option value="none">Please Select</option>
+                    <option value="morning">Between 7:00am and 11:00am</option>
+                    <option value="noon">Between 11:00am and 3:00pm</option>
+                    <option value="afternoon">Between 3:00pm and 6:00pm</option>
+                    <option value="Evening">Between 6:00pm and 8:00pm</option>
+
+
+
+                </select>
+            </label>
+
+        </fieldset>
+
+
+        <label>Description of Desired Art Request:
+            <textarea name="comments"></textarea>
+        </label>
+
+        <input type="submit" value="Send Art Request">
+        </form>
+
+</main>
+
+<address>
+    142 W 34th Ave<br>
+    Anchorage, Alaska 99503<br>
+    Email: <a href="mailto:sarah@example.com">sarah@example.com</a><br>
+    Phone: <a href="tel:+1234567890">(801) 456-7890</a>
+</address>
+
+<footer>
+    <p>&copy; <script>document.write(new Date().getFullYear());</script> | Sarah Bowen | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
